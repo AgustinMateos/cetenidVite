@@ -39,7 +39,7 @@ export default function Slider() {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className="mySwiper "
+        className="mySwiper shadow-xl "
 >
         <SwiperSlide><img src={sliderP14} alt="" /></SwiperSlide>
         <SwiperSlide><img src={sliderP4} alt="" /></SwiperSlide>

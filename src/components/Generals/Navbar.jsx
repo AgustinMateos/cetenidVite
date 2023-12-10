@@ -1,5 +1,6 @@
 import { Fragment, useState } from 'react'
 import cetenidLogo from "../../assets/img/cetenidLogo.png"
+import { Link } from 'react-router-dom'
 
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
@@ -12,7 +13,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-import { Link } from 'react-router-dom'
+
 
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
@@ -118,18 +119,17 @@ export default function Navbar() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="#"
+                <Link to={"/"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                  Cetenid
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  to={"/Nosotros"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                  Nosotros
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"

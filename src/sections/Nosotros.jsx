@@ -1,5 +1,5 @@
 import React from 'react'
-import NosotrosBody from '../components/HomeBody/NosotrosBody'
+import NosotrosBody from '../components/NosotrosBody/NosotrosBody'
 
 const Nosotros = () => {
   return (<main><NosotrosBody/></main>

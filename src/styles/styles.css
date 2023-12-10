@@ -52,7 +52,12 @@
     letter-spacing: 0em;
     text-align: center;
 }
-.bg-whitee{background-color:#FDFDF2; ;}
+
+.bg-whitee {
+    background-color: #FDFDF2;
+    ;
+}
+
 /**footer*/
 .footerContainer {
     background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);
@@ -413,23 +418,30 @@
 .NosotrosBodySection {
     background-color: #FDFDF2;
 }
-.NosotrosBodyContainer{display: flex;
+
+.NosotrosBodyContainer {
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+}
+
 .NosotrosBodyContainerCard {
     width: 73%;
     padding-top: 20px;
 }
-.NosotrosBodyContainerCard h1{color: #BF304A;
+
+.NosotrosBodyContainerCard h1 {
+    color: #BF304A;
     font-family: "Quicksand";
     font-size: 50px;
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0em;
     text-align: center;
-    border-bottom: 1px solid #000000;}
+    border-bottom: 1px solid #000000;
+}
 
 .NosotrosContainerEquipoDirectivoCard {
     display: flex;
@@ -452,7 +464,8 @@
     color: #390000;
 }
 
-.NosotrosContainerEquipoDirectivoCard h2{color: #BF304A;
+.NosotrosContainerEquipoDirectivoCard h2 {
+    color: #BF304A;
     font-family: "Quicksand";
     font-size: 50px;
     font-weight: 700;
@@ -462,18 +475,47 @@
     max-width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #000000;}
-    .NosotrosCoordinadoraTexto{
-        color: #BF304A;
-        font-family: "Quicksand";
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 80px;
-        letter-spacing: 0em;
-        margin-top: 20px;
-        
-        border-bottom: 1px solid #000000;}
-        .centeer{display: flex;flex-direction: column;
-            align-items: center;text-align: center;}
+    border-bottom: 1px solid #000000;
+}
 
-    .NosotrosCoordinadoraCard{max-width: 24rem;}
+.NosotrosCoordinadoraTexto {
+    color: #BF304A;
+    font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+
+    border-bottom: 1px solid #000000;
+}
+
+.centeer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.NosotrosCoordinadoraCard {
+    max-width: 24rem;
+}
+
+/*como trabajamos*/
+.comoTrabajamosContainerPrincipal{ display: flex;}
+.comoTrabajamosPrimerContainer {
+   
+}
+
+.comoTrabajamosPrimerContainerImg {
+    width: 80%;
+    height: 400px;
+}
+
+.comoTrabajamosImg {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
+}

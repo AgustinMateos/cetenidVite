@@ -1,8 +1,9 @@
 import React from 'react'
+import ComoTrabajamosBody from '../components/ComoTrabajamosBody/ComoTrabajamosBody'
 
 const ComoTrabajamos = () => {
   return (
-    <div>ComoTrabajamos</div>
+    <main><ComoTrabajamosBody/></main>
   )
 }
 

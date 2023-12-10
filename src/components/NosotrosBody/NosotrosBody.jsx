@@ -16,7 +16,7 @@ const NosotrosBody = () => {
                 sin perder de vista las individualidades de cada concurrente y de su grupo familiar.
                  Hace ya más de 15 años que nuestro proyecto se hizo realidad y nos enorgullece y alegra ver el progreso de nuestros concurrentes, asi como el compromiso y apoyo de las familias que confían y son parte de CETENID . </p></div></div>
 
-            <div><div ><img src={CetenidEquipo} alt="" /></div></div>
+            <div className='nosotrosContainerImgEquipo'><div ><img src={CetenidEquipo} alt="" /></div></div>
 
 
             <div className='NosotrosContainerEquipoDirectivoCard'><h2>Equipo Directivo</h2>

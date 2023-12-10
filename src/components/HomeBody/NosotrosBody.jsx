@@ -6,7 +6,15 @@ const NosotrosBody = () => {
     return (
         <section className='NosotrosBodySection'>
             <div className='NosotrosBodyContainer'  >
-                <div className='NosotrosBodyContainerCard'> <h1>NOSOTROS</h1><p className='NosotrosBodyContainerP'>Somos Alida y Alejandra, directoras de CETENID, hace más de 20 años que comenzamos a trabajar juntas en el área de discapacidad. Fuimos docentes en la carrera de Estimulación Temprana; y fue allí donde surgió el proyecto de un Centro que brindara a los niños y jóvenes un espacio diferente donde trabajar con seriedad, respeto y profesionalismo sin perder de vista las individualidades de cada concurrente y de su grupo familiar. Hace ya más de 15 años que nuestro proyecto se hizo realidad y nos enorgullece y alegra ver el progreso de nuestros concurrentes, asi como el compromiso y apoyo de las familias que confían y son parte de CETENID . </p></div></div>
+                <div className='NosotrosBodyContainerCard'> 
+                <h1>NOSOTROS</h1>
+                <p className='NosotrosBodyContainerP'>Somos Alida y Alejandra, directoras de CETENID, 
+                hace más de 20 años que comenzamos a trabajar juntas en el área de discapacidad. 
+                Fuimos docentes en la carrera de Estimulación Temprana; y fue allí donde surgió el
+                 proyecto de un Centro en Haedo, el cual le brinde a los niños y 
+                jóvenes un espacio diferente donde trabajar con seriedad, respeto y profesionalismo 
+                sin perder de vista las individualidades de cada concurrente y de su grupo familiar.
+                 Hace ya más de 15 años que nuestro proyecto se hizo realidad y nos enorgullece y alegra ver el progreso de nuestros concurrentes, asi como el compromiso y apoyo de las familias que confían y son parte de CETENID . </p></div></div>
 
             <div><div ><img src={CetenidEquipo} alt="" /></div></div>
 
@@ -40,7 +48,7 @@ const NosotrosBody = () => {
 
                         </div>
                     </div></div>
-                <div><h4>Coordinadora General</h4>
+                <div className='centeer'><h4 className='NosotrosCoordinadoraTexto'>Coordinadora General</h4>
                     <div className="card w-96 shadow-xl">
                         <figure className="px-10 pt-10">
                             <img src={coordinadora} alt="Shoes" className="rounded-xl" />

@@ -1,5 +1,6 @@
 import React from 'react'
 import cetenidLogo from '../../assets/img/cetenidLogo.png'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <footer >
@@ -15,7 +16,7 @@ const Footer = () => {
             </div>
 
                 <nav className='footerContainerMenu'>
-                    <a className="link link-hover">Cetenid</a>
+                    <Link to={"/"} className="link link-hover">Cetenid</Link>
                     <a className="link link-hover">Como Trabajamos</a>
                     <a className="link link-hover">Nosotros</a>
                     <a className="link link-hover">Galeria</a>

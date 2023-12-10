@@ -37,10 +37,10 @@ export default function Navbar() {
     <header className="bg-white navbarContainer  shadow-xl">
       <nav className="mx-auto  flex  items-center justify-between  lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link to={"/"} className="-m-1.5 p-1.5">
             
             <img className="navbarLogo" src={cetenidLogo} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button

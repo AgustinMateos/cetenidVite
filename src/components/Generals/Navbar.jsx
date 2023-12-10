@@ -12,6 +12,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { Link } from 'react-router-dom'
 
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
@@ -54,20 +55,22 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12 navbarContainerMenu">
          
 
-          <a href="#" className=" navbarContainerMenu font-semibold leading-6 text-gray-900">
-            Inicio
+          <a  className=" navbarContainerMenu font-semibold leading-6 text-gray-900">
+            <Link to={"/"}>Inicio</Link>
           </a>
-          <a href="#" className="navbarContainerMenu font-semibold leading-6 text-gray-900">
-            Como Trabajamos
+          <a  className="navbarContainerMenu font-semibold leading-6 text-gray-900">
+            <Link to={"/ComoTrabajamos"}>Como Trabajamos</Link> 
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
+           
             Nosotros
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
             Galeria
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
-            Contacto
+            <Link to={"/Contacto"}>Contacto</Link>
+            
           </a>
         </Popover.Group>
         

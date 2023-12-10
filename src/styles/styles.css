@@ -23,7 +23,7 @@
     text-transform: uppercase;
     transition: 0.1s ease-in-out;
     font-family: Quicksand;
-    font-size: 80px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
@@ -60,6 +60,13 @@
     letter-spacing: 0em;
     text-align: center;
     color: #390000;}
+.footerContainerMenu a{font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #390000;}
+    .footerContainerFlex{display: flex;justify-content: center;}
+    .footerContainerCopyright{text-align: center;}
 /*home*/
 
 .homeBodyContainer {
@@ -74,7 +81,7 @@
 
 .swiper-horizontal {
     touch-action: pan-y;
-    height: 400px;
+    height: 550px;
 }
 
 .swiper-slide {
@@ -89,13 +96,18 @@
     align-items: center;
     text-align: center;
 }
-
+.swiper-button-prev:after, .swiper-button-next:after {
+    color:#FDFDF2;
+}
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
+
 
 .autoplay-progress {
     position: absolute;

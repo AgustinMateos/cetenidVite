@@ -2,6 +2,9 @@
 .cetenidStrong {
     color: #BF304A;
 }
+.elemento {
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
+  }
 .whatsapp{position: fixed;
     color: black;
     padding: 0.5rem 1rem;
@@ -81,6 +84,29 @@
     color: #390000;}
     .footerContainerFlex{display: flex;justify-content: center;}
     .footerContainerCopyright{text-align: center;}
+
+    .footer {
+        display: grid;
+        width: 100%;
+        grid-auto-flow: row;
+        place-items: start;
+        -moz-column-gap: 1rem;
+        column-gap: 1rem;
+        row-gap: 2.5rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        justify-items: center !important;
+        align-items: center !important;
+    }
+
+    .footerContainer h5{    font-weight: bold;
+        color: #390000;}
+
+    .footerContainerp{color: #390000;
+        font-family: "Quicksand";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 15px;}
 /*home*/
 
 .homeBodyContainer {

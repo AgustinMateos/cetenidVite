@@ -45,8 +45,8 @@ const HomeBody = () => {
         </div>
       </div>
 
-      <div className='homeBodyCardsContainer' >
-      <div className='homeBodyCardsContainerImgTexto '  >
+      <div className='homeBodyCardsContainer elemento' >
+      <div className='homeBodyCardsContainerImgTexto  '  >
         <figure>
           <img src={desayunoHome} alt="Movie" />
         </figure>
@@ -54,7 +54,7 @@ const HomeBody = () => {
           <p>LA INSTITUCIÓN BRINDA EL DESAYUNO AL LLEGAR Y EL ALMUERZO AL MEDIODÍA.</p>
         </div>
       </div></div>
-      <div className='homeBodyCardsContainer' >
+      <div className='homeBodyCardsContainer elemento' >
       <div className='homeBodyCardsContainerImgTexto'  >
         
         <div >
@@ -65,7 +65,7 @@ const HomeBody = () => {
           <img src={homecard30} alt="Movie" />
         </figure>
       </div></div>
-      <div className='homeContainerDondeEstamos'><a href="">Como Trabajamos?</a></div>
+      <div className=' homeContainerDondeEstamos'><a href="">Como Trabajamos?</a></div>
 
 
     </main>

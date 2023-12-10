@@ -52,7 +52,7 @@
     letter-spacing: 0em;
     text-align: center;
 }
-
+.bg-whitee{background-color:#FDFDF2; ;}
 /**footer*/
 .footerContainer {
     background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);

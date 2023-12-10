@@ -62,8 +62,8 @@ export default function Navbar() {
             <Link to={"/ComoTrabajamos"}>Como Trabajamos</Link> 
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
-           
-            Nosotros
+           <Link to={"/Nosotros"}>Nosotros</Link>
+            
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
             Galeria

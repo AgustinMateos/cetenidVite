@@ -6,6 +6,7 @@ import Hombres from '../../assets/iconos/Hombres.svg'
 import relojNegro from '../../assets/iconos/relojNegro.svg'
 import acompanamiento from '../../assets/iconos/acompanamiento.svg'
 import whatsapp from '../../assets/iconos/whatsapp.png'
+import { Link } from 'react-router-dom'
 const HomeBody = () => {
   return (
     <main className="homeBodyContainer">
@@ -18,7 +19,7 @@ const HomeBody = () => {
             </p>
             <p>Estamos convencidos que siempre se puede aprender algo más, que lo más importante es que nuestros chicos se sientan felices, contenidos y con ganas de venir, que encuentren en Cetenid su lugar de pertenencia y formemos una gran familia.</p></div>
             <div className='homeContainerComoTrabajamos'>
-              <a href="">Como Trajamos?</a>
+              <Link to={"/ComoTrabajamos"}>Como Trajamos?</Link>
             </div>
         </div>
         
@@ -65,7 +66,7 @@ const HomeBody = () => {
           <img src={homecard30} alt="Movie" />
         </figure>
       </div></div>
-      <div className=' homeContainerDondeEstamos'><a href="">Como Trabajamos?</a></div>
+      <div className=' homeContainerDondeEstamos'><Link to={"/Contacto"}>Donde Estamos?</Link></div>
 
 
     </main>

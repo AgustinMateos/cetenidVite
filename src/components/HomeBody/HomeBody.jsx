@@ -5,9 +5,11 @@ import '../../styles/styles.css'
 import Hombres from '../../assets/iconos/Hombres.svg'
 import relojNegro from '../../assets/iconos/relojNegro.svg'
 import acompanamiento from '../../assets/iconos/acompanamiento.svg'
+import whatsapp from '../../assets/iconos/whatsapp.png'
 const HomeBody = () => {
   return (
     <main className="homeBodyContainer">
+      <a className='whatsapp' href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='homeContainerTextoPrincipal'>
         <div className=" ">
           <div className="homeContainerTextoPrincipal1">

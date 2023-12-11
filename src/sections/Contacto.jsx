@@ -1,8 +1,10 @@
 import React from 'react'
+import Formulario from '../components/contactoBody/ContactoBody'
+
 
 const Contacto = () => {
   return (
-    <div>Contacto</div>
+    <main><Formulario/></main>
   )
 }
 

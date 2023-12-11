@@ -502,11 +502,26 @@
 }
 
 /*como trabajamos*/
-.comoTrabajamosContainer{display: flex;align-items: center;
-    justify-content: space-evenly;flex-wrap: wrap;}
-.comoTrabajamosContainerImg{max-width: 250px;}
-.comoTrabajamosContainerTexto{max-width: 450px;}
-.comoTrabajamosContainerTexto h1{font-family: "Quicksand";
+.comoTrabajamosContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.comoTrabajamosContainerImg {
+    max-width: 280px;
+}
+.comoTrabajamosContainerImg img{height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;}
+.comoTrabajamosContainerTexto {
+    max-width: 450px;
+}
+
+.comoTrabajamosContainerTexto h1 {
+    font-family: "Quicksand";
     font-size: 50px;
     font-weight: 700;
     line-height: 80px;
@@ -515,4 +530,10 @@
     color: #BF304A;
     border-bottom: 1px solid #000000;
     text-align: center;
-    width: 100%;}
+    width: 100%;
+}
+
+/*contacto*/
+.contactoContainer{display: flex;align-items: center;
+    justify-content: space-around;}
+.contactoContainerInfo{width: 30%;}

@@ -10,7 +10,7 @@ const ComoTrabajamosBody = () => {
                         <img  src={comoTrabajamos16} alt="" />
                     </div>
                     <div className='comoTrabajamosContainerTexto'>
-                        <h1>Como Trabajamos</h1>
+                        <h1 >Como Trabajamos</h1>
                         <p >Nuestro CET brinda una atención personalizada
                         (individual y grupal) de lunes a viernes, de 8.30 a 15.30 hs.
                         en Haedo mediante grupos reducidos de similares características y
@@ -20,6 +20,7 @@ const ComoTrabajamosBody = () => {
                     </div>
                 </div>
             </div>
+            <div><div><div></div></div></div>
         </section>
     )
 }

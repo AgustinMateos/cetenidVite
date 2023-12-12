@@ -225,6 +225,13 @@
 }
 
 
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+    background: #FDFDF2!important;
+}
 /*Home*/
 .homeCardContainerDesayunoPileta {
     position: relative;
@@ -537,3 +544,48 @@
 .contactoContainer{display: flex;align-items: center;
     justify-content: space-around;}
 .contactoContainerInfo{width: 30%;}
+.contactoContainerInfoTitulo{font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    padding-top: 7px;
+    border-bottom: 1px solid #000000;
+    margin-top: 2px;
+    padding-bottom: 20px;}
+    .contactoContainerInfoTitulos {
+        font-weight: bold;
+        color: #390000;
+    }
+    .contactoContainerInfoTitulosP{color: #390000;
+        font-family: "Quicksand";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;}
+.contactoContainerTitulo2{font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    height: 91px;
+    border-bottom: 1px solid #000000;}
+.containerContactoMap{max-width: 100%;}
+.containerContactoMap iframe{width: 100%;}
+.contactoContainerButtonEnviar{box-sizing: border-box;
+    width: 199px;
+    height: 49px;
+    background-color: #BF304A;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: "Montserrat";
+    margin: 20px;}

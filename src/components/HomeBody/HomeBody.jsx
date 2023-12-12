@@ -9,7 +9,7 @@ import whatsapp from '../../assets/iconos/whatsapp.png'
 import { Link } from 'react-router-dom'
 const HomeBody = () => {
   return (
-    <main className="homeBodyContainer">
+    <main className="homeBodyContainer ">
       <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='homeContainerTextoPrincipal'>
         <div className=" ">

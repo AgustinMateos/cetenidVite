@@ -23,7 +23,7 @@ const Footer = () => {
                     <Link to={"/Contacto"} className="link link-hover">Contacto</Link>
                 </nav>
                 <div className='footerContainerCobertura'>
-                    <h4>COBERTURA</h4>
+                    <h4 >COBERTURA</h4>
                     <p><strong className='cetenidStrong'>CETENID</strong> trabaja con Prepagas, Obras Sociales y con Incluir
                         Salud (Ex PROFE)
                     </p>

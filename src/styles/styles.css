@@ -540,6 +540,14 @@
     width: 100%;
 }
 
+.comoTrabajamosContainerTexto2{    color: #390000;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;}
+
 /*contacto*/
 .contactoContainer{display: flex;align-items: center;
     justify-content: space-around;}

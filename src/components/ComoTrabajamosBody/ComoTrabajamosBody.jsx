@@ -11,7 +11,7 @@ const ComoTrabajamosBody = () => {
                     </div>
                     <div className='comoTrabajamosContainerTexto'>
                         <h1 >Como Trabajamos</h1>
-                        <p >Nuestro CET brinda una atención personalizada
+                        <p className='comoTrabajamosContainerTexto2'>Nuestro CET brinda una atención personalizada
                         (individual y grupal) de lunes a viernes, de 8.30 a 15.30 hs.
                         en Haedo mediante grupos reducidos de similares características y
                         edades, a cargo de una Orientadora (profesional del área de la salud)

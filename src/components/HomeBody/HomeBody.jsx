@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import desayunoHome from '../../assets/interfaz/desayunoHome.jpg'
 import homecard30 from '../../assets/interfaz/homecard30.jpg'
 import '../../styles/styles.css'
@@ -7,14 +7,21 @@ import relojNegro from '../../assets/iconos/relojNegro.svg'
 import acompanamiento from '../../assets/iconos/acompanamiento.svg'
 import whatsapp from '../../assets/iconos/whatsapp.png'
 import { Link } from 'react-router-dom'
+import AOS from "aos"
+import "aos/dist/aos.css"
 const HomeBody = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
+
+
   return (
     <main className="homeBodyContainer ">
       <a className='whatsapp'  href="https://wa.me/1526175981"><img src={whatsapp} alt="" /></a>
       <div className='homeContainerTextoPrincipal'>
         <div className=" ">
-          <div className="homeContainerTextoPrincipal1">
-            <h1>CETENID</h1>
+          <div  className="homeContainerTextoPrincipal1">
+            <h1 data-aos="fade-left">CETENID</h1>
             <p>Somos <strong className='cetenidStrong'>CETENID</strong>  (Centro Educativo Terapéutico y de Estimulación para Niños Discapacitados), un CET en Haedo que trabaja con niños y adolescentes con patologías neuromotoras y/o sensoriales, asociadas a deficiencias de la comunicación y déficit intelectual.
             </p>
             <p>Estamos convencidos que siempre se puede aprender algo más, que lo más importante es que nuestros chicos se sientan felices, contenidos y con ganas de venir, que encuentren en Cetenid su lugar de pertenencia y formemos una gran familia.</p></div>

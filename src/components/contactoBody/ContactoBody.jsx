@@ -24,7 +24,7 @@ export default function Example() {
     const [agreed, setAgreed] = useState(false)
 
     return (
-        <section>
+        <section className='contactoSectionContainer'>
             <div className='contactoContainer'>
                 <div className='contactoContainerInfo'>
                     <h1 className='contactoContainerInfoTitulo'>CONTACTO</h1>

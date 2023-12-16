@@ -7,6 +7,7 @@ import Footer from './components/Generals/Footer'
 import ComoTrabajamos from './sections/ComoTrabajamos'
 import Contacto from './sections/Contacto'
 import Nosotros from './sections/Nosotros'
+import Galeria from './sections/Galeria'
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 
       <Route  path="/" element={<Homepage/>}/>
       <Route path="/ComoTrabajamos" element={<ComoTrabajamos/>}/>
-      <Route path="/Nosotros" element={<Nosotros/>}>/</Route>
+      <Route path="/Nosotros" element={<Nosotros/>}/>
+      <Route path="/Galeria" element={<Galeria/>}/>
       <Route  path="/Contacto" element={<Contacto/>}/>
 
      

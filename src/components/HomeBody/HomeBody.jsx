@@ -72,8 +72,6 @@ const HomeBody = () => {
         </figure>
       </div></div>
       <div className=' homeContainerDondeEstamos'><Link to={"/Contacto"}>Donde Estamos?</Link></div>
-
-
     </main>
 
 

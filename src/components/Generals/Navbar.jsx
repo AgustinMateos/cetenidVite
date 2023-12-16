@@ -67,7 +67,8 @@ export default function Navbar() {
             
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
-            Galeria
+            <Link to={"/Galeria"}>Galeria</Link>
+            
           </a>
           <a href="#" className=" font-semibold leading-6 text-gray-900">
             <Link to={"/Contacto"}>Contacto</Link>

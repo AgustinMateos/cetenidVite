@@ -571,17 +571,60 @@
     text-align: center;
 }
 
+.comoTrabajamosContainerProfesionesTitulo {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+    margin-bottom: 0px;
+    font-family: Quicksand;
+}
+
+.comoTrabajamosContainerProfesiones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.comoTrabajamosContainerProfesiones li {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C93143;
+    border-bottom: 1px solid #000000;
+}
+
+.comoTrabajamosContainerProfesionesImg {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
 
 
 /*contacto*/
+.contactoSectionContainer {
+    max-height: max-content;
+    padding: 20px;
+}
+
 .contactoMainContainer {
     background-color: #FDFDF2;
 }
 
 .contactoContainer {
     display: flex;
-    align-items: center;
+
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .contactoContainerInfo {
@@ -644,7 +687,11 @@
 .containerContactoMap iframe {
     width: 100%;
 }
-.contactoContainerButtonEnviar{text-align: center;}  
+
+.contactoContainerButtonEnviar {
+    text-align: center;
+}
+
 .contactoContainerButtonEnviarTexto {
     box-sizing: border-box;
     width: 199px;

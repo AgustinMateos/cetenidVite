@@ -3,7 +3,7 @@ import comoTrabajamos16 from '../../assets/interfaz/comoTrabajamos16.jpg'
 
 const ComoTrabajamosBody = () => {
     return (
-        <section>
+        <section className='comoTrabajamosSection'>
             <div >
                 <div className='comoTrabajamosContainer' > 
                     <div className='comoTrabajamosContainerImg'>

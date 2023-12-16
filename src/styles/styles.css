@@ -66,7 +66,7 @@
 .footerContainerCobertura {
     border: 1px solid #390000;
     display: flex;
-    height: 210px;
+    min-height: 210px;
     max-width: 370px;
     border-radius: 20px;
     flex-direction: column;
@@ -230,8 +230,9 @@
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
     display: inline-block;
     border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
-    background: #FDFDF2!important;
+    background: #FDFDF2 !important;
 }
+
 /*Home*/
 .homeCardContainerDesayunoPileta {
     position: relative;
@@ -251,6 +252,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 20px;
+    justify-content: space-evenly;
 
 }
 
@@ -258,7 +260,7 @@
     display: flex;
     justify-content: center;
     color: white;
-    margin-bottom: 45px;
+
 }
 
 .homeContainerComoTrabajamos a {
@@ -286,7 +288,8 @@
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
-    width: 60%;
+    justify-content: space-evenly;
+
 }
 
 
@@ -322,7 +325,7 @@
 .homeContainerTextoPrincipal2 {
 
 
-    max-width: 750px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     max-height: 100%;
@@ -340,7 +343,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #390000;
-    max-width: 250px;
+    max-width: 350px;
 }
 
 .homeContainerTextoPrincipal2Texto {
@@ -352,7 +355,8 @@
     margin: 20px;
     max-width: 730px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 
 }
 
@@ -458,7 +462,9 @@
 
 .NosotrosContainerEquipoDirectivo {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-evenly;
 }
 
 .NosotrosBodyContainerP {
@@ -508,7 +514,18 @@
     max-width: 24rem;
 }
 
+.nosotrosContainerImgEquipo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
 /*como trabajamos*/
+.comoTrabajamosSection {
+    background-color: #FDFDF2;
+    ;
+}
+
 .comoTrabajamosContainer {
     display: flex;
     align-items: center;
@@ -519,10 +536,14 @@
 .comoTrabajamosContainerImg {
     max-width: 280px;
 }
-.comoTrabajamosContainerImg img{height: 400px;
+
+.comoTrabajamosContainerImg img {
+    height: 400px;
     max-width: 100%;
     object-fit: cover;
-    border-radius: 20px;}
+    border-radius: 20px;
+}
+
 .comoTrabajamosContainerTexto {
     max-width: 450px;
 }
@@ -540,19 +561,35 @@
     width: 100%;
 }
 
-.comoTrabajamosContainerTexto2{    color: #390000;
+.comoTrabajamosContainerTexto2 {
+    color: #390000;
     font-family: "Noto Serif";
     font-style: normal;
     font-size: 20px;
     line-height: 40px;
     align-items: center;
-    text-align: center;}
+    text-align: center;
+}
+
+
 
 /*contacto*/
-.contactoContainer{display: flex;align-items: center;
-    justify-content: space-around;}
-.contactoContainerInfo{width: 30%;}
-.contactoContainerInfoTitulo{font-family: "Quicksand";
+.contactoMainContainer {
+    background-color: #FDFDF2;
+}
+
+.contactoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactoContainerInfo {
+    width: 30%;
+}
+
+.contactoContainerInfoTitulo {
+    font-family: "Quicksand";
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
@@ -562,28 +599,54 @@
     padding-top: 7px;
     border-bottom: 1px solid #000000;
     margin-top: 2px;
-    padding-bottom: 20px;}
-    .contactoContainerInfoTitulos {
-        font-weight: bold;
-        color: #390000;
-    }
-    .contactoContainerInfoTitulosP{color: #390000;
-        font-family: "Quicksand";
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 25px;}
-.contactoContainerTitulo2{font-family: "Quicksand";
+    padding-bottom: 10px;
+}
+
+.contactoContainerInfoTitulos {
+    font-weight: bold;
+    color: #390000;
+}
+
+.contactoContainerInfoTitulosP {
+    color: #390000;
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 37px;
+}
+
+.contactoContainerTitulo2 {
+    font-family: "Quicksand";
     font-size: 50px;
     font-weight: 600;
     line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
-    height: 91px;
-    border-bottom: 1px solid #000000;}
-.containerContactoMap{max-width: 100%;}
-.containerContactoMap iframe{width: 100%;}
-.contactoContainerButtonEnviar{box-sizing: border-box;
+
+    border-bottom: 1px solid #000000;
+}
+
+.contactoContainerTitulo3 {
+    font-family: "Quicksand";
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+}
+
+.containerContactoMap {
+    max-width: 100%;
+}
+
+.containerContactoMap iframe {
+    width: 100%;
+}
+.contactoContainerButtonEnviar{text-align: center;}  
+.contactoContainerButtonEnviarTexto {
+    box-sizing: border-box;
     width: 199px;
     height: 49px;
     background-color: #BF304A;
@@ -596,4 +659,5 @@
     letter-spacing: 0em;
     text-align: center;
     font-family: "Montserrat";
-    margin: 20px;}
+    margin: 20px;
+}

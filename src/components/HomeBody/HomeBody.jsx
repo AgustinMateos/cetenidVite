@@ -35,8 +35,7 @@ const HomeBody = () => {
             <img src={Hombres} alt="" />
             <div className='homeContainerTextoPrincipal2Texto'>
               <h3>RANGO ETARIO</h3>
-              <p>Cetenid trabaja con niños y adolescentes de 6 a 18 años.</p>
-            </div>
+            <p>En Cetenid trabajamos con niños y adolescentes de 6 a 18 años.</p></div>
           </div>
           <div >
             <img src={relojNegro} alt="" />
@@ -47,8 +46,7 @@ const HomeBody = () => {
             <img src={acompanamiento} alt="" />
             <div className='homeContainerTextoPrincipal2Texto'>
               <h3>HORARIO DE CLASES</h3>
-              <p>Lunes a Viernes de 8:30 a 15:30 hs.</p>
-            </div>
+              <p>Lunes a Viernes de 8:30 a 15:30 hs.</p></div>
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function Example() {
         <section>
             <div className='contactoContainer'>
                 <div className='contactoContainerInfo'>
-                    <h1 className='contactoContainerInfoTitulo'>Contacto</h1>
+                    <h1 className='contactoContainerInfoTitulo'>CONTACTO</h1>
                     <ul>
                         <li><h3 className='contactoContainerInfoTitulos'>Dirección:</h3><p  className='contactoContainerInfoTitulosP'>Chacabuco 157. Haedo. Provincia de Buenos Aires. C.P. 1706</p></li>
                         <li><h3 className='contactoContainerInfoTitulos'>Como llegar:</h3><p className='contactoContainerInfoTitulosP'>Colectivos: 153 - 163 - 136 - 182 - 166 - 326
@@ -45,11 +45,11 @@ export default function Example() {
                     </ul>
                 </div>
                 <div>
-                    <div className="isolate  px-6 py-24  ">
+                    <div className="isolate  px-6   ">
 
                         <div className="mx-auto max-w-2xl">
-                            <h2 className="text-3xl   sm:text-4xl contactoContainerTitulo2">Cetenid</h2>
-
+                            <h2 className=" contactoContainerTitulo2">CETENID</h2>
+                             <p className='contactoContainerTitulo3'>Contactate y con gusto te asesoramos.</p>
                         </div>
                         <form action="#" method="POST" className="mx-auto  ">
                             <div className="grid grid-cols-1  sm:grid-cols-2">
@@ -63,7 +63,7 @@ export default function Example() {
                                             name="company"
                                             id="company"
                                             autoComplete="organization"
-                                            className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            className="block w-full border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         />
                                     </div>
                                 </div>
@@ -112,10 +112,10 @@ export default function Example() {
                                 </div>
 
                             </div>
-                            <div className="mt-10">
+                            <div className="contactoContainerButtonEnviar  " >
                                 <button
-                                    type="submit"
-                                    className="contactoContainerButtonEnviar block  rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    
+                                    className="contactoContainerButtonEnviarTexto  "
                                 >
                                     Enviar
                                 </button>

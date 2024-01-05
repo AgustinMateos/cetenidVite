@@ -531,15 +531,16 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 450px;
 }
 
 .comoTrabajamosContainerImg {
-    max-width: 280px;
+    max-width: 400px;
 }
 
 .comoTrabajamosContainerImg img {
     height: 400px;
-    max-width: 100%;
+    width: 1500px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -580,6 +581,7 @@
     color: #390000;
     margin-bottom: 0px;
     font-family: Quicksand;
+    padding-left: 70px;
 }
 
 .comoTrabajamosContainerProfesiones {
@@ -603,11 +605,6 @@
     width: 200px;
     height: 200px;
 }
-
-
-
-
-
 
 
 /*contacto*/
@@ -708,3 +705,8 @@
     font-family: "Montserrat";
     margin: 20px;
 }
+
+/*Galeria*/
+.galeriaBodyContainer{width: 100%;}
+.galeriaBodyContainerCards{width: auto;}
+.galeriaBodyCards{height: 200px;width: 400px;}

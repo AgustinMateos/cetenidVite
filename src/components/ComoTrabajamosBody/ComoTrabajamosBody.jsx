@@ -3,8 +3,11 @@ import comoTrabajamos16 from '../../assets/interfaz/comoTrabajamos16.jpg'
 import logoComoTrabajamos from '../../assets/iconos/logoComoTrabajamos.png'
 import comotrabajamos2 from '../../assets/interfaz/23.jpg'
 
+
 const ComoTrabajamosBody = () => {
+    
     return (
+        
         <section className='comoTrabajamosSection'>
             <div >
                 <div className='comoTrabajamosContainer' >
@@ -33,7 +36,8 @@ const ComoTrabajamosBody = () => {
                         </ul>
                     </div>
                     <div>
-                        <img className='comoTrabajamosContainerProfesionesImg' src={logoComoTrabajamos} alt="" /></div>
+                        <img className='comoTrabajamosContainerProfesionesImg' src={logoComoTrabajamos} alt="" />
+                        </div>
                     <div>
                         <ul>
                         <li>PSICOLOGÍA</li>
@@ -58,6 +62,7 @@ const ComoTrabajamosBody = () => {
         
         </section>
     )
+    
 }
 
 export default ComoTrabajamosBody

@@ -137,12 +137,12 @@ export default function Navbar() {
                 >
                  Nosotros
                 </Link>
-                <a
-                  href="#"
+                <Link
+                  to={"/Galeria"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Galeria
-                </a>
+                </Link>
                 <Link
                  to={"/Contacto"}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"

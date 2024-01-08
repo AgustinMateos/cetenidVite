@@ -707,6 +707,23 @@
 }
 
 /*Galeria*/
-.galeriaBodyContainer{width: 100%;}
-.galeriaBodyContainerCards{width: auto;}
-.galeriaBodyCards{height: 200px;width: 400px;}
+.galeriaBodyContainer {
+    width:100% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeriaBodyContainerCards {
+    width: auto; display: flex;
+}
+
+.galeriaBodyCards {
+    
+    width: 460px;
+
+}
+.galeriaBodyCards img{height: 275px;
+    object-fit: cover;
+    object-position: center;width: 100%;}
+    

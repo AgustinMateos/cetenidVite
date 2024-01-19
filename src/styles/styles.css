@@ -707,23 +707,104 @@
 }
 
 /*Galeria*/
+.galeriaContainerTitulo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px 20px;
+}
+
+.galeriaTitulo {
+    color: #BF304A;
+    font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
 .galeriaBodyContainer {
-    width:100% ;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .galeriaBodyContainerCards {
-    width: auto; display: flex;
+    width: auto;
+    display: flex;
 }
 
 .galeriaBodyCards {
-    
+
     width: 460px;
 
 }
-.galeriaBodyCards img{height: 275px;
+
+.galeriaBodyCards img {
+    height: 275px;
     object-fit: cover;
-    object-position: center;width: 100%;}
-    
+    object-position: center;
+    width: 100%;
+}
+
+.galeriaContainerSlider {
+    width: 650px
+}
+
+.galeriaContainerSliders {
+    display: flex;
+    justify-content: center;
+}
+
+.galeriaSliders {
+    max-width: 1020px;
+}
+
+.galeriaContainerTituloSecundario {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeriaTituloSecundario {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #390000;
+    font-family: Quicksand;
+}
+
+.galeriaContainerTituloSecundarioImg {
+    width: 160px;
+}
+
+.galeriaContainerJugamosImg {
+    max-width: 100%;
+    max-height: 846px;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.galeriaContainerJugamosImg img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.galeriaContainerImg {
+  
+    max-width: 300px;
+}
+
+.galeriaContainerImg img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

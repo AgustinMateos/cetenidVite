@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className=" inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -104,7 +104,6 @@ export default function Navbar() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products, ...callsToAction].map((item) => (
                           <Disclosure.Button

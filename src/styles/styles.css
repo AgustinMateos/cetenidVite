@@ -143,6 +143,62 @@
     line-height: 15px;
 }
 
+.formularioContainerEnviar {
+    display: flex;
+    justify-content: center;
+}
+
+.formDisplayFlex {
+    width: 100%;
+}
+
+.contactoInputs {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.contactoInputs input {
+    width: 100%;
+    color: black;
+    border-radius: 20px;
+    background-color: #FDFDF2;
+    border: solid 2px #7e7e7e;
+    padding: 10px;
+}
+.contactoContainerInput{width:48%}
+.contactoInputsTextArea {
+    padding: 10px;
+}
+
+.contactoInputsTextArea textarea {
+    width: 100%;
+    padding: 10px;
+    ;
+    background-color: #FDFDF2;
+    border: solid 2px #7e7e7e;
+    border-radius: 20px
+}
+
+.contactoInputsEmailTelefono {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contactoInputsEmailTelefono input {
+    width: 100%;
+    color: black;
+    background-color: #FDFDF2;
+    padding: 10px;
+    ;
+    border: solid 2px #7e7e7e;
+    ;
+    border-radius: 20px;
+}
+
 /*home*/
 
 .homeBodyContainer {
@@ -451,7 +507,10 @@
     line-height: 80px;
     letter-spacing: 0em;
     text-align: center;
-    border-bottom: 1px solid #000000;
+    text-decoration: underline black;
+    text-decoration-thickness: 1px;
+    /* Ajusta el grosor según tus preferencias */
+    text-underline-offset: 10px;
 }
 
 .NosotrosContainerEquipoDirectivoCard {
@@ -610,7 +669,8 @@
 /*contacto*/
 .contactoSectionContainer {
     max-height: max-content;
-    padding: 20px;
+
+
 }
 
 .contactoMainContainer {
@@ -619,6 +679,7 @@
 
 .contactoContainer {
     display: flex;
+    padding: 20px;
 
     justify-content: space-around;
     flex-wrap: wrap;
@@ -627,7 +688,7 @@
 .contactoContainerInfo {
     width: 30%;
 }
-
+.containerContactForm{width:650px}
 .contactoContainerInfoTitulo {
     font-family: "Quicksand";
     font-size: 50px;
@@ -667,6 +728,16 @@
     border-bottom: 1px solid #000000;
 }
 
+.contactoSectionContainer h4 {
+    font-family: Quicksand;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+}
+
 .contactoContainerTitulo3 {
     font-family: "Quicksand";
     font-size: 29px;
@@ -693,7 +764,7 @@
     box-sizing: border-box;
     width: 199px;
     height: 49px;
-    background-color: #BF304A;
+    background-color: #BF304A !important;
     border: 1px solid #000000;
     border-radius: 20px;
     color: #ffffff;
@@ -706,11 +777,36 @@
     margin: 20px;
 }
 
+.mensajeErrorForm {
+    color: red;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mensajeEnviado {
+    color: green;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
 /*Galeria*/
+.galeriaContainer {
+    background-color: #FDFDF2;
+}
+
 .galeriaContainerTitulo {
     display: flex;
-    justify-content: flex-start;
-    margin: 20px 20px 20px;
+    justify-content: center;
+    padding: 20px 20px 20px;
+
 }
 
 .galeriaTitulo {
@@ -799,7 +895,7 @@
 }
 
 .galeriaContainerImg {
-  
+
     max-width: 300px;
 }
 

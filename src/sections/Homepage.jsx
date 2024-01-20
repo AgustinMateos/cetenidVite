@@ -1,20 +1,44 @@
-import React from 'react'
+import React,{ useState, useEffect }  from 'react'
 import Slider from '../components/Generals/Slider'
 import HomeBody from '../components/HomeBody/HomeBody'
+import Navbar from '../components/Generals/Navbar'
+import Footer from '../components/Generals/Footer'
+import Spinner from '../components/Generals/Spinner'
 
 
 
 
-const Homepage = () => {
+
+const HomePage = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); 
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <main>
-      <Slider/>
-      <HomeBody/>
+    <main className="contactoMainContainer">
+      {loading ? (
+        <Spinner />
+      ) : (
+        <>
+        <Navbar/>
+          <Slider/>
+          <HomeBody/>
+          <Footer/>
+        </>
+        
+      )}
+     
     </main>
-  )
-}
+  );
+};
 
-export default Homepage
+export default HomePage;
 
 
 

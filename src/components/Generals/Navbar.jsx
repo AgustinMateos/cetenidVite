@@ -56,22 +56,22 @@ export default function Navbar() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12 navbarContainerMenu">
          
 
-          <a  className=" navbarContainerMenu font-semibold leading-6 text-gray-900">
-            <Link to={"/"}>Inicio</Link>
+          <a  className=" navbarContainerMenu  leading-6 text-gray-900">
+            <Link className='dynamic-underline' to={"/"}>Inicio</Link>
           </a>
-          <a  className="navbarContainerMenu font-semibold leading-6 text-gray-900">
-            <Link to={"/ComoTrabajamos"}>Como Trabajamos</Link> 
+          <a  className="navbarContainerMenu leading-6 text-gray-900">
+            <Link className='dynamic-underline' to={"/ComoTrabajamos"}>Como Trabajamos</Link> 
           </a>
-          <a href="#" className=" font-semibold leading-6 text-gray-900">
-           <Link to={"/Nosotros"}>Nosotros</Link>
+          <a href="#" className="  leading-6 text-gray-900">
+           <Link className='dynamic-underline' to={"/Nosotros"}>Nosotros</Link>
             
           </a>
-          <a href="#" className=" font-semibold leading-6 text-gray-900">
-            <Link to={"/Galeria"}>Galeria</Link>
+          <a href="#" className="  leading-6 text-gray-900">
+            <Link className='dynamic-underline' to={"/Galeria"}>Galeria</Link>
             
           </a>
-          <a href="#" className=" font-semibold leading-6 text-gray-900">
-            <Link to={"/Contacto"}>Contacto</Link>
+          <a href="#" className="  leading-6 text-gray-900">
+            <Link className='dynamic-underline' to={"/Contacto"}>Contacto</Link>
             
           </a>
         </Popover.Group>

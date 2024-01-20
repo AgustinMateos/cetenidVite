@@ -16,11 +16,11 @@ const Footer = () => {
             </div>
 
                 <nav className='footerContainerMenu'>
-                    <Link to={"/"} className="link link-hover">Cetenid</Link>
-                    <Link to={"/ComoTrabajamos"} className="link link-hover">Como Trabajamos</Link>
-                    <Link to={"/Nosotros"} className="link link-hover">Nosotros</Link>
-                    <a className="link link-hover">Galeria</a>
-                    <Link to={"/Contacto"} className="link link-hover">Contacto</Link>
+                    <Link  to={"/"} className="dynamic-highlight">Cetenid</Link>
+                    <Link to={"/ComoTrabajamos"} className="dynamic-highlight">Como Trabajamos</Link>
+                    <Link to={"/Nosotros"} className="dynamic-highlight">Nosotros</Link>
+                    <Link to={"/Galeria"} className="dynamic-highlight">Galeria</Link>
+                    <Link to={"/Contacto"} className="dynamic-highlight">Contacto</Link>
                 </nav>
                 <div className='footerContainerCobertura'>
                     <h4 >COBERTURA</h4>

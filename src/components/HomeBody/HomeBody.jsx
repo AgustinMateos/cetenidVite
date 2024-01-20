@@ -22,9 +22,13 @@ const HomeBody = () => {
         <div className=" ">
           <div  className="homeContainerTextoPrincipal1">
             <h1 data-aos="fade-left">CETENID</h1>
-            <p>Somos <strong className='cetenidStrong'>CETENID</strong>  (Centro Educativo Terapéutico y de Estimulación para Niños Discapacitados), un CET en Haedo que trabaja con niños y adolescentes con patologías neuromotoras y/o sensoriales, asociadas a deficiencias de la comunicación y déficit intelectual.
+            <p>Somos <strong className='cetenidStrong'>CETENID</strong>  (Centro Educativo Terapéutico y de Estimulación para Niños Discapacitados), un CET en Haedo que trabaja con chicos y adolescentes con patologías neuromotoras
+             y/o sensoriales, asociadas a deficiencias de la comunicación y déficit intelectual.
             </p>
-            <p>Estamos convencidos que siempre se puede aprender algo más, que lo más importante es que nuestros chicos se sientan felices, contenidos y con ganas de venir, que encuentren en Cetenid su lugar de pertenencia y formemos una gran familia.</p></div>
+            <p>Estamos convencidos que siempre se puede aprender algo más, que lo 
+              más importante es que nuestros chicos se sientan felices, contenidos y
+               con ganas de venir al Centro, que encuentren en Cetenid su lugar de pertenencia y
+                formemos una gran familia.</p></div>
             <div className='homeContainerComoTrabajamos'>
               <Link to={"/ComoTrabajamos"}>Como Trajamos?</Link>
             </div>
@@ -40,7 +44,7 @@ const HomeBody = () => {
           <div >
             <img src={relojNegro} alt="" />
             <div className='homeContainerTextoPrincipal2Texto'> <h3>ACTIVIDADES RECREATIVAS</h3>
-              <p>Acompañamos dentro y fuera del aula.</p></div>
+              <p>Acompañamos a los niños dentro y fuera del aula.</p></div>
           </div>
           <div >
             <img src={acompanamiento} alt="" />
@@ -52,7 +56,7 @@ const HomeBody = () => {
       </div>
 
       <div className='homeBodyCardsContainer elemento' >
-      <div className='homeBodyCardsContainerImgTexto  '  >
+      <div className='homeBodyCardsContainerImgTexto  ' data-aos="fade-right"  >
         <figure>
           <img src={desayunoHome} alt="Movie" />
         </figure>
@@ -61,17 +65,18 @@ const HomeBody = () => {
         </div>
       </div></div>
       <div className='homeBodyCardsContainer elemento' >
-      <div className='homeBodyCardsContainerImgTexto'  >
+      <div className='homeBodyCardsContainerImgTexto' data-aos="fade-left"  >
         
-        <div >
+        <div  >
           <p>DURANTE ENERO Y FEBRERO COMPARTIMOS ACTIVIDADES MÁS LÚDICAS Y
                             RECREATIVAS AL AIRE LIBRE EN
                             NUESTRO PARQUE.</p>
-        </div><figure>
+        </div>
+        <figure>
           <img src={homecard30} alt="Movie" />
         </figure>
       </div></div>
-      <div className=' homeContainerDondeEstamos'><Link to={"/Contacto"}>Donde Estamos?</Link></div>
+      <div className='homeContainerDondeEstamos'><Link data-aos="fade-right" to={"/Contacto"}>Donde Estamos?</Link></div>
     </main>
 
 
